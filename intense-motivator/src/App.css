@@ -25,8 +25,8 @@ body {
   align-content: center;
   align-items: center;
   line-height: 1.5;
-  color: #333;
-  background-color: #f4f4f4;
+  color: #7d7d7d;
+  background-color: #181919;
 }
 a,
 a:visited,
@@ -43,41 +43,45 @@ a:hover {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  border: 3px solid transparent;
+  padding: 0.8rem 1.4rem;
+  font-family: "Avenir", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #595274;
   cursor: pointer;
-  transition: border-color 0.25s;
+
+  color: white;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #312463;
+  border-color: #52526d;
+  transition: background-color 0.8s ease-in-out;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 .title {
+  width: 100%;
   font-size: 3em;
   font-weight: 900;
   margin: 0.5em 0;
-  color: darkslategray;
-  text-shadow: 0 0 1em #00000033;
-  text-decoration: underline;
-  text-decoration-color: bisque;
-  text-decoration-thickness: 0.2em;
-  text-decoration-style: wavy;
+  color: rgb(247, 219, 177);
+  text-shadow: 1px 1px 0rem #10151ca4;
 }
 .card {
   width: 70vw;
   height: 80vh;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 0 1em #00000033;
-  background-color: #fff;
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 192, 174),
+    rgb(246, 246, 147)
+  );
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -92,4 +96,16 @@ p {
   color: #0e1216;
   text-shadow: 0 0 1em #00000033;
   text-wrap: balance;
+}
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
 }

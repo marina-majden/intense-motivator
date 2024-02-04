@@ -4,9 +4,8 @@ import Quote from "./components/Quote";
 function App() {
   return (
     <>
-      <h1 className="title">Intense Motivator</h1>
+      <h1 className="title">Quote Generator</h1>
       <div className="card">
-        <h2>Get Motivated</h2>
         <Quote />
       </div>
     </>
