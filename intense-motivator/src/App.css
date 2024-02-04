@@ -59,7 +59,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-h1 {
+.title {
   font-size: 3em;
   font-weight: 900;
   margin: 0.5em 0;
