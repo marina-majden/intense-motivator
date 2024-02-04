@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: baseline;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+}
+a,
+a:visited,
+a:active,
+a:link {
+  color: #646cff;
+  text-decoration: none;
+  will-change: filter;
+  transition: color 0.3s;
+}
+a:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0.5em 0;
+  color: darkslategray;
+  text-shadow: 0 0 1em #00000033;
+  text-decoration: underline;
+  text-decoration-color: bisque;
+  text-decoration-thickness: 0.2em;
+  text-decoration-style: wavy;
+}
+.card {
+  width: 70vw;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 1em #00000033;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  gap: 1em;
+}
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #0e1216;
+  text-shadow: 0 0 1em #00000033;
+  text-wrap: balance;
+}
