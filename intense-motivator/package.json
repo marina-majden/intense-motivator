@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "entry": "index.html",
+  "main": "main.jsx",
+  "module": "index.js",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
